@@ -1,0 +1,12 @@
+.place__row-two {
+  display: inline-flex;
+}
+
+@media screen and (max-width: 320px){
+  .place__row-two {
+    display: block;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

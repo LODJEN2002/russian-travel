@@ -1,0 +1,36 @@
+.cover__subtitle {
+  font-size: 1.40625vw;
+  line-height: 1.71875vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  width: 28.125vw;
+  height: 5.15625vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    width: 35.15625vw;
+    height: 6.4453125vw;
+    font-size: 1.7578125vw;
+    line-height: 2.1484375vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    width: 46.875vw;
+    height: 8.59375vw;
+    font-size: 2.34375vw;
+    line-height: 2.864583333vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    width: 90vw;
+    height: 15vw;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

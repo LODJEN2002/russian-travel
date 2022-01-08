@@ -1,0 +1,38 @@
+.footer__link:hover {
+  opacity: 0.8;
+  color: white;
+
+}
+.footer__link {
+  margin-right: 18px;
+  font-size: 1.25vw;
+  line-height: 1.40625vw;
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__link {
+    font-size: 1.5625vw;
+    line-height: 1.7578125vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__link {
+    font-size: 2.083333333vw;
+    line-height: 2.34375vw;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .footer__link:nth-last-child(2){
+    margin-bottom: 48px;
+  }
+
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
+}
