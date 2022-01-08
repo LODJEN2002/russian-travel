@@ -1,20 +1,12 @@
 .intro__list {
-  display: inline-block;
+  display: flex;
   font-size: 12px;
   line-height: 18px;
   font-weight: bold;
   width: 100%;
-  margin-bottom: 92px;
 }
 
-@media screen and (max-width: 768px) {
-  .intro {
-
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .intro {
-
-  }
+.intro__list-number {
+  font-weight: 400;
+  margin-left: 10px;
 }
