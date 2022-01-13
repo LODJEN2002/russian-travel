@@ -4,7 +4,6 @@
   font-size: 96px;
   line-height: 100px;
   width: 73.170731707%;
-  height: 15.625vw;
   margin-bottom: 32px;
   margin-top: 56px;
   text-align: center;
@@ -16,7 +15,6 @@
 @media screen and (max-width: 1024px) {
   .lead__title {
     width: 77.586206896%;
-    height: 19.53125vw;
   }
 }
 
@@ -25,7 +23,6 @@
     width: 93.75%;
     font-size: 13.333333333vw;
     line-height: 13.888888888vw;
-    height: 26.041666666vw;
   }
 }
 
@@ -34,7 +31,6 @@
     width: 90%;
     font-size: 40px;
     line-height: 44px;
-    height: 88px;
     margin-top: 48px;
     margin-bottom: 16px;
   }

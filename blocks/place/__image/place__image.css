@@ -1,6 +1,6 @@
 .place__image {
-  width: 35.9375vw;
-  display: inline;
+  width: 46.747967479%;
+  display: flex;
 }
 
 @media screen and (max-width: 1024px) {

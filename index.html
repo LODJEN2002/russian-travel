@@ -9,11 +9,13 @@
 <body>
   <div class="header">
     <img class="header__logo" src="images/header-logo.svg" alt="лого">
-    <div class="header__lang-link-ru">
-      Ru
-    </div>
-    <div class="header__lang-link-en">
-      En
+    <div class="header__logo-link">
+      <div class="header__lang-link-ru">
+        Ru
+      </div>
+      <div class="header__lang-link-en">
+        En
+      </div>
     </div>
   </div>
   <section class="lead">
@@ -41,10 +43,10 @@
       места, достойные вашего отпуска.
     </div>
     <div class="intro__list">Часовых поясов <div class="intro__list-number">11</div> </div>
-      <div class="intro__list">Объектов природного наследия ЮНЕСКО<div class="intro__list-number"> 12</div> </div>
-      <div class="intro__list">Объектов культурного наследия ЮНЕСКО<div class="intro__list-number"> 16</div> </div>
-      <div class="intro__list">Природных заповедников<div class="intro__list-number"> 105</div> </div>
-      <div class="intro__list">Аэропортов<div class="intro__list-number"> 241</div> </div>
+    <div class="intro__list">Объектов природного наследия ЮНЕСКО<div class="intro__list-number"> 12</div> </div>
+    <div class="intro__list">Объектов культурного наследия ЮНЕСКО<div class="intro__list-number"> 16</div> </div>
+    <div class="intro__list">Природных заповедников<div class="intro__list-number"> 105</div> </div>
+    <div class="intro__list">Аэропортов<div class="intro__list-number"> 241</div> </div>
   </section>
   <section class="photo-grid">
     <img class="photo-grid__item" src="images/photo-grid-train.jpg" alt="поезд">
@@ -62,7 +64,7 @@
   </section>
   <section class="places">
     <div class="place">
-      <div class="place__row-one">
+      <div class="place__row-up">
         <h2 class="place__title"> Куршская коса</h2>
         <div class="place__website">
           <div class="place__url-heading">
@@ -71,7 +73,7 @@
           <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
         </div>
       </div>
-      <div class="place__row-two">
+      <div class="place__row-down">
         <img class="place__image" src="images/place-kosa.jpg" alt="коса">
         <div class="place__wrap">
           <p class="place__paragraph">
@@ -84,7 +86,7 @@
       </div>
     </div>
     <div class="place">
-      <div class="place__row-one">
+      <div class="place__row-up">
         <h2 class="place__title"> Кольский</h2>
         <div class="place__website-2">
           <div class="place__url-heading">
@@ -93,7 +95,7 @@
           <a class="place__link" href="https://www.nationalgeographic.com/pages/topic/yourshot?keywords=kolskiy">National Geographic</a>
         </div>
       </div>
-      <div class="place__row-two">
+      <div class="place__row-down">
         <img class="place__image" src="images/place-kolsky.jpg" alt="кольский">
         <div class="place__wrap">
           <p class="place__paragraph">
@@ -106,7 +108,7 @@
       </div>
     </div>
     <div class="place">
-      <div class="place__row-one">
+      <div class="place__row-up">
         <h2 class="place__title"> Алтай</h2>
         <div class="place__website-2">
           <div class="place__url-heading">
@@ -115,7 +117,7 @@
           <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
         </div>
       </div>
-      <div class="place__row-two">
+      <div class="place__row-down">
         <img class="place__image" src="images/place-altai.jpg" alt="алтай">
         <div class="place__wrap">
           <p class="place__paragraph">
@@ -128,7 +130,7 @@
       </div>
     </div>
     <div class="place">
-      <div class="place__row-one">
+      <div class="place__row-up">
         <h2 class="place__title"> Зимний байкал</h2>
         <div class="place__website">
           <div class="place__url-heading">
@@ -137,7 +139,7 @@
           <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
         </div>
       </div>
-      <div class="place__row-two">
+      <div class="place__row-down">
         <img class="place__image" src="images/place-winter-baikal.jpg" alt="зимний-байкал">
         <div class="place__wrap">
           <p class="place__paragraph">
@@ -150,7 +152,7 @@
       </div>
     </div>
     <div class="place">
-      <div class="place__row-one">
+      <div class="place__row-up">
         <h2 class="place__title"> Карелия</h2>
         <div class="place__website-2">
           <div class="place__url-heading">
@@ -159,7 +161,7 @@
           <a class="place__link" href="http://vodlozero.ru">https://vodlozero.ru/</a>
         </div>
       </div>
-      <div class="place__row-two">
+      <div class="place__row-down">
         <img class="place__image" src="images/place-karelia.jpg" alt="карелия">
         <div class="place__wrap">
           <p class="place__paragraph">
@@ -170,19 +172,20 @@
     </div>
   </section>
   <section class="cover">
-    <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-    <h2 class="cover__title">До Байкала «на собаках»</h2>
-    <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</h3>
-    <div class="cover__overlay">
-    </div>
+    <a class="cover__link" href="https://vk.com/away.php?to=https%3A%2F%2Fstampsy.com%2Fna-elektrichkakh-do-baikala&cc_key=">
+      <h2 class="cover__title">До Байкала «на собаках»</h2>
+      <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</h3>
+      <div class="cover__overlay"></div>
     </a>
   </section>
   <section class="footer">
-    <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-    <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-    <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-    <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-    <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+    <div class="footer__link-container">
+      <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+      <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+      <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+      <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
+      <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+    </div>
     <div class="footer__copyright">
       &#169; 2022 Иван Доценко
     </div>

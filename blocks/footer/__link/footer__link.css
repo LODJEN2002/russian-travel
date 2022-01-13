@@ -5,8 +5,8 @@
 }
 .footer__link {
   margin-right: 18px;
-  font-size: 1.25vw;
-  line-height: 1.40625vw;
+  font-size: 16px;
+  line-height: 18px;
   text-decoration: none;
   color: white;
 }
@@ -26,10 +26,6 @@
 }
 
 @media screen and (max-width:320px) {
-  .footer__link:nth-last-child(2){
-    margin-bottom: 48px;
-  }
-
   .footer__link {
     font-size: 24px;
     line-height: 24px;

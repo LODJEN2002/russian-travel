@@ -23,6 +23,7 @@
 @media screen and (max-width: 320px) {
   .place__website {
     margin-top: 32px;
+    margin-bottom: 32px;
     width: 90vw;
     margin-left: auto;
     margin-right: auto;
@@ -32,6 +33,7 @@
 @media screen and (max-width: 320px) {
   .place__website-2 {
     margin-top: 32px;
+    margin-bottom: 32px;
     width: 90vw;
     margin-left: auto;
     margin-right: auto;

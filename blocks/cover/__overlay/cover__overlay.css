@@ -1,35 +1,46 @@
 .cover__overlay {
-  width: 1184px;
-  height: 740px;
+  width: 100%;
+  height: 100%;
   background-color: #2A2C2F;
   opacity: .3;
-  position: relative;
-  top: -513px;
+  position: absolute;
+  top: 0;
   left: 0;
   z-index: -1;
-
 }
 
+.cover__overlay:hover{
+  opacity: .8;
+}
+/**
+@media screen and (max-width: 1168px) {
+  .cover__overlay {
+    height: 762px;
+  }
+}
+@media screen and (max-width: 1155px) {
+  .cover__overlay {
+    height: 838px;
+  }
+}
+
+**/
 @media screen and (max-width: 1024px) {
   .cover__overlay {
-    width: 100vw;
-    height: 62.5vw;
-    top: -45.21484375vw;
+    height: 100%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__overlay {
-    width: 100vw;
-    height: 62.5vw;
-    top: -49.869791666vw;
+
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__overlay {
-    width: 100vw;
-    height: 62.5vw;
-    top: -181px;
+    width: 100%;
+    height: 100%;
+
   }
 }

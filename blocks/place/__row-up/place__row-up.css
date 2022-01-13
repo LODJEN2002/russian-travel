@@ -1,9 +1,9 @@
-.place__row-one {
+.place__row-up {
   display: flex;
 }
 
 @media screen and (max-width: 320px) {
-  .place__row-one {
+  .place__row-up {
     display: block;
   }
 }

@@ -1,12 +1,22 @@
 .photo-grid {
+  max-width: 1184px;
+  width: 92.5vw;
   display: grid;
-  grid-template: repeat(3, 16.640625vw) / repeat(4, 22.1875vw);
-  column-gap: 1.25vw;
-  row-gap: 1.25vw;
+  grid-template: repeat(3, 213px) / repeat(4, 284px);
+  column-gap: 16px;
+  row-gap: 16px;
   margin-bottom: 92px;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+@media screen and (max-width: 1185px) {
+  .photo-grid {
+    column-gap: 0;
+    row-gap: 0;
+  }
+}
 
 @media screen and (max-width: 1024px) {
   .photo-grid {

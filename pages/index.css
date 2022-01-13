@@ -2,6 +2,7 @@
 @import "../fonts/inter Web/inter.css";
 @import "../blocks/header/header.css";
 @import "../blocks/header/__logo/header__logo.css";
+@import "../blocks/header/__logo-link/header__logo-link.css";
 @import "../blocks/header/__lang-link-ru/header__lang-link-ru.css";
 @import "../blocks/header/__lang-link-en/header__lang-link-en.css";
 /*================== Header ===================== */
@@ -27,17 +28,19 @@
 @import "../blocks/place/__paragraph/place__paragraph.css";
 @import "../blocks/place/__link/place__link.css";
 @import "../blocks/place/__url-heading/place__url-heading.css";
-@import "../blocks/place/__row-one/place__row-one.css";
-@import "../blocks/place/__row-two/place__row-two.css";
+@import "../blocks/place/__row-up/place__row-up.css";
+@import "../blocks/place/__row-down/place__row-down.css";
 /*================== Place ===================== */
 @import "../blocks/cover/cover.css";
 @import "../blocks/cover/__title/cover__title.css";
 @import "../blocks/cover/__subtitle/cover__subtitle.css";
 @import "../blocks/cover/__overlay/cover__overlay.css";
+@import "../blocks/cover/__link/cover__link.css";
 /*================== Cover ===================== */
 @import "../blocks/footer/footer.css";
 @import "../blocks/footer/__link/footer__link.css";
 @import "../blocks/footer/__copyright/footer__copyright.css";
+@import "../blocks/footer/__link-container/footer__link-container.css";
 /*================== Footer ===================== */
 @import "../blocks/html/html.css";
 /*================== Html ===================== */
