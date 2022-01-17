@@ -7,7 +7,8 @@
   font-weight: 400;
   width: 360px;
   padding-bottom: 245px;
-  z-index: 2;
+  z-index: 3;
+  position: relative;
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,6 +20,12 @@
 @media screen and (max-width: 768px) {
   .cover__subtitle {
     padding-bottom: 115px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .cover__subtitle {
+    width: 100%;
   }
 }
 

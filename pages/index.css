@@ -3,8 +3,8 @@
 @import "../blocks/header/header.css";
 @import "../blocks/header/__logo/header__logo.css";
 @import "../blocks/header/__logo-link/header__logo-link.css";
-@import "../blocks/header/__lang-link-ru/header__lang-link-ru.css";
-@import "../blocks/header/__lang-link-en/header__lang-link-en.css";
+@import "../blocks/header/__lang-link/header__lang-link.css";
+@import "../blocks/header/__lang-link/_line/header__lang-link_line.css";
 /*================== Header ===================== */
 @import "../blocks/lead/lead.css";
 @import "../blocks/lead/__title/lead__title.css";
@@ -28,8 +28,9 @@
 @import "../blocks/place/__paragraph/place__paragraph.css";
 @import "../blocks/place/__link/place__link.css";
 @import "../blocks/place/__url-heading/place__url-heading.css";
-@import "../blocks/place/__row-up/place__row-up.css";
-@import "../blocks/place/__row-down/place__row-down.css";
+@import "../blocks/place/__name/place__name.css";
+@import "../blocks/place/__info/place__info.css";
+@import "../blocks/place/__wrap/place__wrap.css";
 /*================== Place ===================== */
 @import "../blocks/cover/cover.css";
 @import "../blocks/cover/__title/cover__title.css";
