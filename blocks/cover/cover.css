@@ -9,7 +9,6 @@
   background-repeat: no-repeat;
   position: relative;
   background-position: 0 100%;
-  background-size: 1184px 740px;
 }
 
 .cover::after {
@@ -24,7 +23,7 @@
 }
 
 .cover:hover::after {
-  background: rgba(42 ,44 ,47 ,.8)
+  background: rgba(42 ,44 ,47 ,.8);
 }
 
 @media screen and (max-width: 1024px) {
