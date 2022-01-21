@@ -1,22 +1,23 @@
-@import "normalize.css";
-@import "../fonts/inter Web/inter.css";
+@import "../vendor/normalize.css";
+@import "../fonts/Inter Web/inter.css";
 @import "../blocks/header/header.css";
 @import "../blocks/header/__logo/header__logo.css";
 @import "../blocks/header/__logo-link/header__logo-link.css";
 @import "../blocks/header/__lang-link/header__lang-link.css";
-@import "../blocks/header/__lang-link/_line/header__lang-link_line.css";
+@import "../blocks/header/__lang-link/_true/header__lang-link_true.css";
 /*================== Header ===================== */
 @import "../blocks/lead/lead.css";
 @import "../blocks/lead/__title/lead__title.css";
 @import "../blocks/lead/__subtitle/lead__subtitle.css";
 @import "../blocks/lead/__image/lead__image.css";
 @import "../blocks/lead/__caption/lead__caption.css";
+@import "../blocks/lead/__figure/lead__figure.css";
 /*================== Lead ===================== */
 @import "../blocks/intro/intro.css";
 @import "../blocks/intro/__title/intro__title.css";
 @import "../blocks/intro/__text/intro__text.css";
 @import "../blocks/intro/__list/intro__list.css";
-@import "../blocks/intro/__number/intro__number.css";
+@import "../blocks/intro/__list-number/intro__list-number.css";
 /*================== Intro ===================== */
 @import "../blocks/photo-grid/photo-grid.css";
 @import "../blocks/photo-grid/__item/photo-grid__item.css";
@@ -42,7 +43,5 @@
 @import "../blocks/footer/__copyright/footer__copyright.css";
 @import "../blocks/footer/__link-container/footer__link-container.css";
 /*================== Footer ===================== */
-@import "../blocks/html/html.css";
-/*================== Html ===================== */
 @import "../blocks/body/body.css";
 /*================== Footer ===================== */

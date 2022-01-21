@@ -2,7 +2,7 @@
   display: flex;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 600px){
   .place__info {
     display: block;
     width: 100%;

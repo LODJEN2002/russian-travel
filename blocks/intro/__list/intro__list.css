@@ -1,12 +1,11 @@
 .intro__list {
   display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
   font-size: 12px;
   line-height: 18px;
   font-weight: bold;
   width: 100%;
-}
-
-.intro__list-number {
-  font-weight: 400;
-  margin-left: 10px;
 }
