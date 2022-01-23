@@ -11,17 +11,11 @@
   font-weight: 900;
 }
 
-@media screen and (max-width: 786px) {
-  .lead__title {
-    width: 90.75%;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .lead__title {
     width: 93.75%;
     font-size: 12.5vw;
-    line-height: 13.888888888vw;
+    line-height: 13.020833333vw;
   }
 }
 
